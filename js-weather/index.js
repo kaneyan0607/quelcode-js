@@ -16,7 +16,7 @@ function clickBtn() {
 
         //DOM操作
         //選択中の都市名
-        document.getElementById("city").textContent = countryTxt;//information.name;
+        document.getElementById("city").textContent = countryTxt;
 
         //天候情報
         document.getElementById("weather").textContent = information.weather[0].description;
