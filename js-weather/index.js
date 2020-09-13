@@ -1,5 +1,5 @@
 function clickBtn() {
-    //パラメータ取得
+    //セレクトボックスの選択した値を取得
     const obj = document.getElementById("country");
     const idx = obj.selectedIndex;       //インデックス番号を取得
     const country = obj.options[idx].value;  //value値を取得
