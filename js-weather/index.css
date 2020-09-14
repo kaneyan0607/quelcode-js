@@ -1,0 +1,17 @@
+body {
+    color: #002222;
+    background-color: #0ff;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+span{
+    font-weight: bold;
+}

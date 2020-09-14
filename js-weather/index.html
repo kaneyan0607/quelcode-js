@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>世界の天気</title>
+</head>
+
+<body>
+    <h1>Ajaxを用いて天気APIから、天気を取得</h1>
+
+    <h2>各地の天気は?</h2>
+    <p>プルダウンから都市を選択してください</p>
+    <select id="country" onchange="clickBtn()">
+        <option value="london,uk" selected>ロンドン</option>
+        <option value="tokyo,jp">東京</option>
+        <option value="paris,fr">パリ</option>
+        <option value="new york,us">ニューヨーク</option>
+        <option value="jakarta,id">ジャカルタ</option>
+    </select>
+
+    <script type="text/javascript" src="index.js"></script>
+    <p>選択した都市: <span id="city"></span></p>
+    <p>天気: <span id="weather"></span></p>
+    <div id="icon"></div>
+    <p>気温: <span id="temperature"></span>℃</p>
+    <p>湿度: <span id="humidity"></span>%</p>
+</body>
+
+</html>
